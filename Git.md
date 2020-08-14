@@ -1,3 +1,26 @@
+## 分支管理
+
+1. 添加分支
+
+   ```powershell
+   //本地
+   git switch -c <branchname>
+   //远程
+   git push -u origin <branchname>
+   ```
+
+2. 删除分支
+
+   ```powershell
+   //本地
+   git branch -d <branchname>
+   //远程
+   git push origin :<branchname>
+   git push origin --delete <branchname>
+   ```
+
+   
+
 ## .gitignore
 
 1. 格式规范
@@ -28,5 +51,3 @@
    #也可以使用git rm -r --cached <filename>指定文件
    git commit -m "update .gitignore"
    ```
-
-   
