@@ -19,6 +19,12 @@
    git push origin --delete <branchname>
    ```
 
+3. 重命名分支
+
+   ```powershell
+   git branch -m <oldname> <newname>
+   ```
+
    
 
 ## .gitignore
